@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới Thiệu Trường Học</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background: #f4f4f4;
+            color: black;
+            padding: 20px 20px;
+        }
+        .header-img {
+            width: 100%;
+            max-height: 300px;
+            object-fit: cover;
+        }
+        .slogan {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .section {
+            width: 300px;
+            margin: 10px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background: #f9f9f9;
+        }
+        .section img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 15px;
+            margin-top: 20px;
+        }
+        @media (max-width: 768px) {
+            .section {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="header-image.jpg" alt="Ảnh minh họa trường học" class="header-img">
+        <h1>Trường Học ABC</h1>
+        <p class="slogan">Nơi ươm mầm tương lai</p>
+    </header>
+    <div class="content">
+        <div class="section">
+            <img src="image1.jpg" alt="Ảnh minh họa 1">
+            <p>Thông tin về trường, chương trình học, cơ sở vật chất...</p>
+        </div>
+        <div class="section">
+            <img src="image2.jpg" alt="Ảnh minh họa 2">
+            <p>Đội ngũ giáo viên, hoạt động ngoại khóa...</p>
+        </div>
+        <div class="section">
+            <img src="image3.jpg" alt="Ảnh minh họa 3">
+            <p>Thành tích của học sinh và nhà trường...</p>
+        </div>
+        <div class="section">
+            <img src="image4.jpg" alt="Ảnh minh họa 4">
+            <p>Các sự kiện và chương trình nổi bật...</p>
+        </div>
+    </div>
+    <footer>
+        <p>Thông tin liên hệ, địa chỉ trường, các ghi chú ngoài lề...</p>
+    </footer>
+</body>
+</html>
